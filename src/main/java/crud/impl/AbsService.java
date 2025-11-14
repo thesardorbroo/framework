@@ -44,7 +44,7 @@ public abstract class AbsService<I, D extends Dto<I>, E extends Entity<I>> imple
             return Optional.empty();
         }
 
-        Optional<D> oldDtoOptional = getById(null /* call getId() method of dto object */);
+        Optional<D> oldDtoOptional = getById(dto.getId());
         if (oldDtoOptional.isEmpty()) {
             // log.warn("Invalid argument is passed! Updated data is not found in DB!");
             return Optional.empty();

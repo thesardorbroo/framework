@@ -14,7 +14,7 @@ public interface Repository<I, E extends Entity<I>> {
 
     Optional<E> findById(I id);
 
-    Optional<E> save(E entity);
+    E save(E entity);
 
-    Optional<E> deleteById(I id);
+    void deleteById(I id);
 }
