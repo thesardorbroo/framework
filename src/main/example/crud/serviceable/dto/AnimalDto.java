@@ -1,6 +1,6 @@
 package crud.serviceable.dto;
 
-import crud.marker.Dto;
+import uz.sardorbroo.crud.marker.Dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

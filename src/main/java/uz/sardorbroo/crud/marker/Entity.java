@@ -1,4 +1,4 @@
-package crud.marker;
+package uz.sardorbroo.crud.marker;
 
 /**
  * Marks class as entity

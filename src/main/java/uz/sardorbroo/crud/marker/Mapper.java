@@ -1,4 +1,4 @@
-package crud.marker;
+package uz.sardorbroo.crud.marker;
 
 import java.util.Collection;
 import java.util.List;

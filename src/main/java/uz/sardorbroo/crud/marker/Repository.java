@@ -1,4 +1,4 @@
-package crud.marker;
+package uz.sardorbroo.crud.marker;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

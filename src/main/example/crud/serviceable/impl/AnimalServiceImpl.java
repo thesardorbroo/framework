@@ -1,8 +1,8 @@
 package crud.serviceable.impl;
 
-import crud.impl.AbsService;
-import crud.marker.Mapper;
-import crud.marker.Repository;
+import uz.sardorbroo.crud.impl.AbsService;
+import uz.sardorbroo.crud.marker.Mapper;
+import uz.sardorbroo.crud.marker.Repository;
 import crud.serviceable.AnimalService;
 import crud.serviceable.domain.Animal;
 import crud.serviceable.dto.AnimalDto;

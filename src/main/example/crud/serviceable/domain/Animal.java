@@ -1,6 +1,6 @@
 package crud.serviceable.domain;
 
-import crud.marker.Entity;
+import uz.sardorbroo.crud.marker.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

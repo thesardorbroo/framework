@@ -1,4 +1,4 @@
-package commons.properties;
+package uz.sardorbroo.commons.properties;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

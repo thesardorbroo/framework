@@ -1,10 +1,10 @@
-package crud.impl;
+package uz.sardorbroo.crud.impl;
 
-import crud.Serviceable;
-import crud.marker.Mapper;
-import crud.marker.Repository;
-import crud.marker.Dto;
-import crud.marker.Entity;
+import uz.sardorbroo.crud.Serviceable;
+import uz.sardorbroo.crud.marker.Mapper;
+import uz.sardorbroo.crud.marker.Repository;
+import uz.sardorbroo.crud.marker.Dto;
+import uz.sardorbroo.crud.marker.Entity;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.transaction.annotation.Transactional;

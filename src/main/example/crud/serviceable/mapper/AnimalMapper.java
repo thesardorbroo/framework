@@ -1,6 +1,6 @@
 package crud.serviceable.mapper;
 
-import crud.marker.Mapper;
+import uz.sardorbroo.crud.marker.Mapper;
 import crud.serviceable.domain.Animal;
 import crud.serviceable.dto.AnimalDto;
 
