@@ -9,6 +9,8 @@ import uz.sardorbroo.commons.printer.properties.PrinterProperties;
 import uz.sardorbroo.commons.scanner.PropertiesInstanceLoader;
 import uz.sardorbroo.commons.scanner.PropertiesScanner;
 
+import java.util.Optional;
+
 @Slf4j
 @Service
 @RequiredArgsConstructor
@@ -29,6 +31,8 @@ public class PropertiesPrinterImpl implements PropertiesPrinter {
         scanner.scan()
                 .stream()
                 .map(c -> loader.getInstanceOrAny(c, null))
+                .filter(Optional::isPresent)
+                .map(Optional::get)
                 .forEach(b -> printer.print(b, properties.getType()));
     }
 }
