@@ -1,0 +1,15 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                              https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <servers>
+        <!-- ID must match the <id> used in your pom.xml repository entry -->
+        <server>
+            <id>github</id>
+            <username>${env.GITHUB_USERNAME}</username>
+            <!-- Use a Personal Access Token (PAT) here, not your GitHub password -->
+            <password>${env.GITHUB_ACCESS_TOKEN}</password>
+        </server>
+    </servers>
+</settings>
